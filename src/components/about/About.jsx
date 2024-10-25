@@ -3,7 +3,6 @@ import "./About.css"
 import user1 from "../../assets/user1.png"
 import user2 from "../../assets/user2.png"
 import { IoMdStar } from "react-icons/io";
-import dots from "../../assets/dots.png"
 
 const About = () => {
   return (
@@ -38,9 +37,6 @@ const About = () => {
                         <IoMdStar />
                     </div>
                 </div>
-            </div>
-            <div className="dot">
-                <img src={dots}/>
             </div>
         </div>
     </aside>
