@@ -1,0 +1,23 @@
+.category .categories {
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+.category .categories .box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: #F6F6F6;
+  border-radius: 22px;
+  width: 354px;
+  height: 239px;
+  padding: 0 20px;
+}
+
+@media (max-width: 767px) {
+  .category .categories {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=Category.css.map */

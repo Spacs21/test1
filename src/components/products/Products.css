@@ -1,0 +1,63 @@
+main .products {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+main .products .product-box {
+  width: 334px;
+  height: 337px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 100px;
+}
+main .products .product-box .product-image {
+  background: #F6F6F6;
+  padding: 10px 10px;
+}
+main .products .product-box .product-image img {
+  width: 100%;
+  height: 280.03px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+}
+main .products .product-box .product-name {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #333;
+}
+main .products .product-box .product-rating {
+  margin: 5px 0;
+}
+main .products .product-box .product-rating .star {
+  color: #f39c12;
+  font-size: 18px;
+}
+main .products .product-box .product-price {
+  margin-top: 10px;
+  font-size: 16px;
+}
+main .products .product-box .product-price .original-price {
+  text-decoration: line-through;
+  color: #999;
+  margin-right: 10px;
+}
+main .products .product-box .product-price .discounted-price {
+  font-weight: bold;
+  color: #333;
+}
+main .more {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+main .more button {
+  padding: 12px 43px;
+  background: #3858D6;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=Products.css.map */

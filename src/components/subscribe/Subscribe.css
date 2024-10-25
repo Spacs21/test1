@@ -1,0 +1,98 @@
+.holder .newsletter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background: #F6F6F6;
+  border-radius: 22px;
+}
+.holder .newsletter-section .newsletter-content h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.holder .newsletter-section .newsletter-content p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+.holder .newsletter-section .newsletter-content .subscribe-form {
+  display: flex;
+  gap: 10px;
+}
+.holder .newsletter-section .newsletter-content .subscribe-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex: 1;
+  font-size: 16px;
+}
+.holder .newsletter-section .newsletter-content .subscribe-form button {
+  padding: 10px 20px;
+  background-color: #3751ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.holder .newsletter-section .newsletter-content .subscribe-form button:hover {
+  background-color: #2f45d1;
+}
+.holder .newsletter-section .watch-image img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .newsletter-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .newsletter-section .newsletter-content h2 {
+    font-size: 20px;
+  }
+  .newsletter-section .newsletter-content p {
+    font-size: 14px;
+  }
+  .newsletter-section .newsletter-content .subscribe-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .newsletter-section .newsletter-content .subscribe-form input {
+    width: 100%;
+  }
+  .newsletter-section .newsletter-content .subscribe-form button {
+    width: 100%;
+  }
+  .newsletter-section .watch-image {
+    margin-top: 20px;
+  }
+  .newsletter-section .watch-image img {
+    width: 120px;
+  }
+}
+@media (max-width: 480px) {
+  .newsletter-section {
+    padding: 15px;
+  }
+  .newsletter-section .newsletter-content h2 {
+    font-size: 18px;
+  }
+  .newsletter-section .newsletter-content p {
+    font-size: 13px;
+  }
+  .newsletter-section .newsletter-content .subscribe-form {
+    gap: 5px;
+  }
+  .newsletter-section .newsletter-content .subscribe-form input {
+    padding: 8px;
+    font-size: 14px;
+  }
+  .newsletter-section .newsletter-content .subscribe-form button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+  .newsletter-section .watch-image img {
+    display: none;
+  }
+}/*# sourceMappingURL=Subscribe.css.map */

@@ -1,0 +1,108 @@
+.hero {
+  padding: 145px 0;
+}
+.hero .content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+.hero .content__image img {
+  width: 100%;
+}
+.hero .content__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+.hero .content__text .form {
+  position: relative;
+}
+.hero .content__text .form .search {
+  position: absolute;
+  color: #3858D6;
+  font-size: 1.3rem;
+  top: 20px;
+  left: 15px;
+}
+.hero .content__text .form button {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  padding: 8px 20px;
+  background: #3858D6;
+  border-radius: 9px;
+  border: none;
+  color: white;
+  font-size: 1.3rem;
+}
+.hero .content__text .form input {
+  width: 443px;
+  height: 60px;
+  border-radius: 15px;
+  color: black;
+  font-size: 16px;
+  padding: 0 40px;
+  outline: none;
+  transition: 0.4s ease;
+}
+.hero .content__text .form input:focus {
+  border: 2px solid blue;
+}
+.hero .content__text h1 {
+  font-size: 64px;
+  line-height: 80px;
+  width: 457px;
+}
+.hero .content__text p {
+  color: #8B8E99;
+  width: 430px;
+}
+
+@media (max-width: 650px) {
+  .hero .content__text h1 {
+    font-size: 40px;
+    line-height: normal;
+  }
+  .hero .content__text p {
+    font-size: 13px;
+  }
+  .hero .content__text .form input {
+    width: 100%;
+  }
+  .hero .content__text .form button {
+    width: 100%;
+  }
+}
+@media (max-width: 950px) {
+  .hero .content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero .content__text .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: unset;
+    gap: 5px;
+  }
+  .hero .content__text .form button {
+    position: unset;
+    width: 40%;
+  }
+  .hero .content__text .form .search {
+    display: none;
+    position: unset;
+  }
+  .hero .content__text h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .hero .content__text p {
+    width: 100%;
+    text-align: center;
+  }
+}/*# sourceMappingURL=Hero.css.map */
